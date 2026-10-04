@@ -38,3 +38,5 @@ sudo apt install -y python3.12-venv
 rm -rf .venv
 /usr/bin/python3.12 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
+python3 -m streamlit run app.py
